@@ -47,17 +47,22 @@
       <img src="nyomdagep_pultja.jpg" alt="Nyomdagép pultja" title="Nyomdagép pultja" class="img-thumbnail">
     </div>
     <div class="col-md-4">
-      p>Plakátnyomtatás</p>
+      <h3>Plakátnyomtatás</h3>
 
       <p>Egy színes plakát nyomtatásának költségét meghatározó tényezők többek közt a papírlap minősége és a papírlap mérete</p>
+
+      <ul>  
+        <li>papírlap minősége</li>
+        <li>papírlap mérete</li>
+      </ul>
       
       <p>A következő űrlapon plakátnyomtatáshoz lehet árat kalkulálni:</p>
       
       <form class="bg-torzs p-3 text-center">
         <label for="szelesseg">Szélesség (mm):</label>
-        <input type="text" class="form-control" id="szelesseg" min="10" max="1000" />
+        <input type="text" class="form-control" id="szelesseg" min="10" max="1000" value="297"/>
         <label for="magassag">Magasság (mm):</label>
-        <input type="text" class="form-control" id="magassag" min="10" max="1400" />
+        <input type="text" class="form-control" id="magassag" min="10" max="1400" value="420"/>
         <label for="ptip">Papírtípus:</label>
         <select class="form-control" id="papirtipus">
           <option value="38">Pauszpapír (115g/m³)</option>
