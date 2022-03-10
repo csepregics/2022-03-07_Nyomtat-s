@@ -7,6 +7,11 @@ function kalkulal(){
     let terulet=Math.round((szelesseg*magassag)/10000);    
     let koltseg=terulet*papir;
     //Megjelenítés
-    document.getElementById('valasz').style.visibility = "visible";
+    document.getElementById('terulet').innerText=terulet;
+    document.getElementById('papir').innerText=papir;
+    document.getElementById('koltseg').innerText=koltseg;
+    document.getElementById('valasz').style.visibility='visible';
+
+
 }
 
